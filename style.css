@@ -3,8 +3,6 @@
 * {
   
     box-sizing: border-box;
-
-    scroll-behavior:calc(100000%)
   }
   
   body {
@@ -170,7 +168,7 @@
   @media only screen and (max-width: 600px){
 
     body{
-       background: url(./mob1.jpg);
+       background: url(./mob1.jpg) !important;
       background-repeat: repeat;
     }
    
