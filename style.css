@@ -168,7 +168,9 @@
   @media only screen and (max-width: 600px){
 
     body{
-      background-image: linear-gradient(to right top, #fe00ff, #eb00ff, #d600ff, #c100ff, #a900ff, #9900ff, #8800ff, #7400ff, #6600ff, #5600ff, #4100ff, #2100ff);
+/*       background-image: linear-gradient(to right top, #fe00ff, #eb00ff, #d600ff, #c100ff, #a900ff, #9900ff, #8800ff, #7400ff, #6600ff, #5600ff, #4100ff, #2100ff); */
+      background: url(./mob1.jpg);
+      min-height: 100vh;
     }
    
     .column{
