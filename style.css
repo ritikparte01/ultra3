@@ -167,11 +167,30 @@
 
   @media only screen and (max-width: 600px){
 
+ 
     body{
-/*       background-image: linear-gradient(to right top, #fe00ff, #eb00ff, #d600ff, #c100ff, #a900ff, #9900ff, #8800ff, #7400ff, #6600ff, #5600ff, #4100ff, #2100ff); */
-/*       background: url(./mob2.jpg); */
-      background-image: linear-gradient(to right top, #2100ff, #7d00d4, #9700ae, #9e008d, #9b0073);
+      background: linear-gradient(to right, rgb(0, 0, 97),rgb(73, 1, 167), rgb(140, 0, 255));
+
     }
+
+    .content{
+      background: linear-gradient(to right top, rgba(165, 54, 255, 0.678),rgb(73, 1, 167), rgba(48, 48, 255, 0.685));
+
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      backdrop-filter: blur( 4px );
+      -webkit-backdrop-filter: blur( 4px );
+      border-radius: 10px;
+      /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+      border-right: 1px solid rgba(255, 255, 255, 0.586);
+      border-top: 1px solid rgba(255, 255, 255, 0.586);
+    
+    }
+   
+    .content img{
+      border-right: 1px solid rgba(255, 255, 255, 0.753);
+      border-top: 1px solid rgba(255, 255, 255, 0.747);
+    }
+
    
     .column{
       width: 100%;
